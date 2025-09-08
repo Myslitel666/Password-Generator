@@ -29,7 +29,7 @@
     onclick={() => goto("/settings")}
   >
     <Process size="38px" />
-    <p style:font-size="26px" style:margin-top="4px">
+    <p style:font-size="26px" style:margin-top="1px">
       <span
         style:color={svelteColor}
         style:filter={logotypeFilter}
