@@ -3,6 +3,8 @@
   import { onMount, onDestroy } from "svelte";
   import { Button, Checkbox, TextField } from "svelte-elegant";
 
+  let length = "10";
+
   let isInitialized = false;
   let isUseNumbers = true;
   let isUseLowercase = true;
@@ -21,7 +23,7 @@
       type="number"
       label="Length"
       width="145px"
-      value="10"
+      bind:value={length}
       textAlign="right"
     />
   </div>
